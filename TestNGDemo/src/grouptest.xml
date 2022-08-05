@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<groups>
+	<run>
+		<include name="regression"/>
+	</run>
+</groups>
+  <test name="Test">
+    <classes>
+      <class name="TestNGPrograms.GroupTest">
+      <methods>
+      <exclude name="checkTitle"/>
+      </methods>
+      </class>
+      <class name="TestNGPrograms.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
